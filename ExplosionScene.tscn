@@ -1,0 +1,148 @@
+[gd_scene load_steps=20 format=2]
+
+[ext_resource path="res://ExplosionScene.gd" type="Script" id=1]
+[ext_resource path="res://assets/ship/nightraiderfixed.png" type="Texture" id=2]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_000.png" type="Texture" id=3]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_001.png" type="Texture" id=4]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_002.png" type="Texture" id=5]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_003.png" type="Texture" id=6]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_004.png" type="Texture" id=7]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_005.png" type="Texture" id=8]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_006.png" type="Texture" id=9]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_007.png" type="Texture" id=10]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_008.png" type="Texture" id=11]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_009.png" type="Texture" id=12]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_010.png" type="Texture" id=13]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_011.png" type="Texture" id=14]
+[ext_resource path="res://assets/explosion/explosion2/explosion01_012.png" type="Texture" id=15]
+[ext_resource path="res://assets/sounds/DeathFlash.ogg" type="AudioStream" id=16]
+
+[sub_resource type="Animation" id=1]
+
+resource_name = "ZoomIn"
+length = 1.0
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 3, 3 ) ]
+}
+
+[sub_resource type="SpriteFrames" id=7]
+
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ) ],
+"loop": false,
+"name": "Explosion",
+"speed": 25.0
+} ]
+
+[sub_resource type="ParticlesMaterial" id=8]
+
+render_priority = 0
+trail_divisor = 1
+emission_shape = 2
+emission_box_extents = Vector3( 1, 1, 1 )
+flag_align_y = false
+flag_rotate_y = false
+flag_disable_z = true
+spread = 180.0
+flatness = 0.0
+gravity = Vector3( -100, -98, 0 )
+initial_velocity = 100.0
+initial_velocity_random = 1.0
+angular_velocity = 0.0
+angular_velocity_random = 0.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+linear_accel = 0.0
+linear_accel_random = 0.0
+radial_accel = 0.0
+radial_accel_random = 0.0
+tangential_accel = 0.0
+tangential_accel_random = 0.0
+damping = 0.0
+damping_random = 0.0
+angle = 80.0
+angle_random = 1.0
+scale = 0.5
+scale_random = 0.0
+color = Color( 1, 1, 1, 1 )
+hue_variation = 0.0
+hue_variation_random = 0.0
+anim_speed = 0.0
+anim_speed_random = 0.0
+anim_offset = 0.0
+anim_offset_random = 0.0
+anim_loop = false
+_sections_unfolded = [ "Angle", "Angular Velocity", "Emission Shape", "Flags", "Gravity", "Initial Velocity", "Scale", "Spread", "Trail" ]
+
+[node name="ExplosionScene" type="Node" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/ZoomIn = SubResource( 1 )
+blend_times = [  ]
+
+[node name="Sprite" type="AnimatedSprite" parent="." index="1"]
+
+position = Vector2( 1119.65, 529.636 )
+scale = Vector2( 3, 3 )
+frames = SubResource( 7 )
+animation = "default"
+playing = true
+_sections_unfolded = [ "Animation", "Offset", "Transform" ]
+
+[node name="Particles2D" type="Particles2D" parent="Sprite" index="0"]
+
+position = Vector2( -18.6114, 7.14362 )
+scale = Vector2( 1.98868, 1 )
+emitting = true
+amount = 10
+lifetime = 1.0
+one_shot = false
+preprocess = 0.0
+speed_scale = 1.0
+explosiveness = 0.0
+randomness = 0.0
+fixed_fps = 0
+fract_delta = true
+visibility_rect = Rect2( -100, -100, 200, 200 )
+local_coords = true
+draw_order = 0
+process_material = SubResource( 8 )
+texture = ExtResource( 8 )
+normal_map = null
+h_frames = 1
+v_frames = 1
+_sections_unfolded = [ "Process Material", "Textures" ]
+
+[node name="ExplosionSound" type="AudioStreamPlayer" parent="." index="2"]
+
+stream = ExtResource( 16 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+

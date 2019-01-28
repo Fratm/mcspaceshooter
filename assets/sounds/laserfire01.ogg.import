@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/laserfire01.ogg-ab9f3e253a9807ab5fc45e454e775571.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/laserfire01.ogg"
+source_md5="2fe8babb076422761fe7585038d83240"
+
+dest_files=[ "res://.import/laserfire01.ogg-ab9f3e253a9807ab5fc45e454e775571.oggstr" ]
+dest_md5="62c2bca033098c7d2041db8c6cfbd4e6"
+
+[params]
+
+loop=false
+loop_offset=0

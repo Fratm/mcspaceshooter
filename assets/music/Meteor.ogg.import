@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Meteor.ogg-86c86dc4c492f2c2ceb3b63c90bbc9ee.oggstr"
+
+[deps]
+
+source_file="res://assets/music/Meteor.ogg"
+source_md5="81476e48396051267c1682db1ff449ef"
+
+dest_files=[ "res://.import/Meteor.ogg-86c86dc4c492f2c2ceb3b63c90bbc9ee.oggstr" ]
+dest_md5="212098e47ec130a487c48b8c871ecaa7"
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Inside_a_Computer_Chip.ogg-2ada4002e4a5044288495f178e2d9182.oggstr"
+
+[deps]
+
+source_file="res://assets/music/Inside_a_Computer_Chip.ogg"
+source_md5="5d43ca2df386b3c4daf9f37ace34e7aa"
+
+dest_files=[ "res://.import/Inside_a_Computer_Chip.ogg-2ada4002e4a5044288495f178e2d9182.oggstr" ]
+dest_md5="a6417e4c916500a2087793210f355722"
+
+[params]
+
+loop=true
+loop_offset=0

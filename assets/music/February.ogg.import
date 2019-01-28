@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/February.ogg-42cfe9838a3aafc4846755d138baed63.oggstr"
+
+[deps]
+
+source_file="res://assets/music/February.ogg"
+source_md5="b0032f72a446d1a645a67f7c6d9fac80"
+
+dest_files=[ "res://.import/February.ogg-42cfe9838a3aafc4846755d138baed63.oggstr" ]
+dest_md5="a83ffc20b85035ffa46c3fb1ea1b0760"
+
+[params]
+
+loop=true
+loop_offset=0

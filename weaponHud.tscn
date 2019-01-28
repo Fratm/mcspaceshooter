@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://weaponHud.gd" type="Script" id=1]
+[ext_resource path="res://assets/weaponHud/hudSelectBoxNotSelected.png" type="Texture" id=2]
+[ext_resource path="res://assets/weaponHud/hudSelectBoxSelected.png" type="Texture" id=3]
+
+[node name="weaponHud" type="CanvasLayer" index="0"]
+
+layer = 1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+script = ExtResource( 1 )
+
+[node name="itemFour" type="Sprite" parent="." index="0"]
+
+position = Vector2( 1106.88, 1002.68 )
+texture = ExtResource( 2 )
+
+[node name="itemThree" type="Sprite" parent="." index="1"]
+
+position = Vector2( 1027.3, 1002.38 )
+texture = ExtResource( 2 )
+
+[node name="itemTwo" type="Sprite" parent="." index="2"]
+
+position = Vector2( 943.609, 1001.65 )
+texture = ExtResource( 2 )
+
+[node name="itemOne" type="Sprite" parent="." index="3"]
+
+position = Vector2( 864.291, 1001.68 )
+texture = ExtResource( 3 )
+
+

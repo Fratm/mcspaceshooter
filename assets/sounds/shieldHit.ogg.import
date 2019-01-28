@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/shieldHit.ogg-123e0c1171c37a42533b5d5b4e5044f3.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/shieldHit.ogg"
+source_md5="e9b9d99e5154c7ed0be221fae80b53cb"
+
+dest_files=[ "res://.import/shieldHit.ogg-123e0c1171c37a42533b5d5b4e5044f3.oggstr" ]
+dest_md5="35e1b5cc312225524df5e93e0e5876ec"
+
+[params]
+
+loop=true
+loop_offset=0

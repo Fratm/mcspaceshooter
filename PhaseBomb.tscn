@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://PhaseBomb.gd" type="Script" id=1]
+[ext_resource path="res://assets/phasebomb.png" type="Texture" id=2]
+[ext_resource path="res://assets/phaseBomb.ogg" type="AudioStream" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+
+custom_solver_bias = 0.0
+radius = 33.145
+
+[node name="PhaseBomb" type="RigidBody2D" index="0"]
+
+position = Vector2( 37.4548, 539.839 )
+input_pickable = true
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 6.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 1300, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+script = ExtResource( 1 )
+_sections_unfolded = [ "Collision", "Linear", "Transform", "Z Index", "collision" ]
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+
+shape = SubResource( 1 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="2"]
+
+stream = ExtResource( 3 )
+volume_db = -10.0
+pitch_scale = 3.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+
+

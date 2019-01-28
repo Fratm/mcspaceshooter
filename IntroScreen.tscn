@@ -1,0 +1,328 @@
+[gd_scene load_steps=28 format=2]
+
+[ext_resource path="res://IntroScreen.gd" type="Script" id=1]
+[ext_resource path="res://assets/vids/space.ogv" type="VideoStream" id=2]
+[ext_resource path="res://VideoPlayer.gd" type="Script" id=3]
+[ext_resource path="res://assets/backgrounds/milkyway.jpg" type="Texture" id=4]
+[ext_resource path="res://assets/fonts/SPACEMAN.TTF" type="DynamicFontData" id=5]
+[ext_resource path="res://assets/music/Cartoon_Space_Utopia.ogg" type="AudioStream" id=6]
+[ext_resource path="res://borders.tscn" type="PackedScene" id=7]
+[ext_resource path="res://assets/large/a10000.png" type="Texture" id=8]
+[ext_resource path="res://assets/large/a10001.png" type="Texture" id=9]
+[ext_resource path="res://assets/large/a10002.png" type="Texture" id=10]
+[ext_resource path="res://assets/large/a10003.png" type="Texture" id=11]
+[ext_resource path="res://assets/large/a10004.png" type="Texture" id=12]
+[ext_resource path="res://assets/large/a10005.png" type="Texture" id=13]
+[ext_resource path="res://assets/large/a10006.png" type="Texture" id=14]
+[ext_resource path="res://assets/large/a10007.png" type="Texture" id=15]
+[ext_resource path="res://assets/large/a10008.png" type="Texture" id=16]
+[ext_resource path="res://assets/large/a10009.png" type="Texture" id=17]
+[ext_resource path="res://assets/large/a10010.png" type="Texture" id=18]
+[ext_resource path="res://assets/large/a10011.png" type="Texture" id=19]
+[ext_resource path="res://assets/large/a10012.png" type="Texture" id=20]
+[ext_resource path="res://assets/large/a10013.png" type="Texture" id=21]
+[ext_resource path="res://assets/large/a10014.png" type="Texture" id=22]
+[ext_resource path="res://assets/large/a10015.png" type="Texture" id=23]
+
+[sub_resource type="DynamicFont" id=1]
+
+size = 64
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 5 )
+_sections_unfolded = [ "Font", "Settings" ]
+
+[sub_resource type="DynamicFont" id=2]
+
+size = 64
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 5 )
+_sections_unfolded = [ "Extra Spacing", "Font", "Resource", "Settings" ]
+
+[sub_resource type="SpriteFrames" id=3]
+
+animations = [ {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=4]
+
+custom_solver_bias = 0.0
+extents = Vector2( 70.1759, 56.8129 )
+
+[node name="IntroScreen" type="CanvasLayer" index="0"]
+
+layer = 1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+script = ExtResource( 1 )
+
+[node name="VideoPlayer" type="VideoPlayer" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.01
+anchor_bottom = 0.0
+margin_left = -8.0
+margin_top = -10.0
+margin_right = 1953.8
+margin_bottom = 1103.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+audio_track = 0
+stream = ExtResource( 2 )
+volume_db = -80.0
+autoplay = false
+paused = false
+expand = true
+buffering_msec = 500
+bus = "Master"
+script = ExtResource( 3 )
+_sections_unfolded = [ "Anchor", "Margin" ]
+
+[node name="BackGroundSprite" type="Sprite" parent="." index="1"]
+
+visible = false
+position = Vector2( 958.863, 541.432 )
+texture = ExtResource( 4 )
+
+[node name="ButtonStart" type="Button" parent="." index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 753.0
+margin_top = 295.0
+margin_right = 1175.0
+margin_bottom = 376.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "START"
+flat = false
+align = 1
+_sections_unfolded = [ "custom_colors", "custom_constants", "custom_fonts" ]
+
+[node name="ButtonQuit" type="Button" parent="." index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 751.0
+margin_top = 410.0
+margin_right = 1176.0
+margin_bottom = 491.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "QUIT"
+flat = false
+align = 1
+_sections_unfolded = [ "custom_colors", "custom_constants", "custom_fonts" ]
+
+[node name="ButtonCredits" type="Button" parent="." index="4"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 754.0
+margin_top = 518.0
+margin_right = 1177.0
+margin_bottom = 599.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "About"
+flat = false
+align = 1
+_sections_unfolded = [ "custom_colors", "custom_constants", "custom_fonts" ]
+
+[node name="GameTitle" type="Label" parent="." index="5"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 1910.0
+margin_bottom = 150.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.0524194, 0.776871, 0.8125, 1 )
+text = "Shooty McSpaceShooter"
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
+
+[node name="introMusic" type="AudioStreamPlayer" parent="." index="6"]
+
+stream = ExtResource( 6 )
+volume_db = -18.0
+pitch_scale = 1.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="borders" parent="." index="7" instance=ExtResource( 7 )]
+
+[node name="RigidBody2D" type="RigidBody2D" parent="." index="8"]
+
+position = Vector2( 1849.59, 177.67 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 1.0
+friction = 0.0
+bounce = 1.0
+gravity_scale = 0.23
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( -600, 100 )
+linear_damp = 0.0
+angular_velocity = 0.0
+angular_damp = -1.0
+_sections_unfolded = [ "Linear" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="RigidBody2D" index="0"]
+
+frames = SubResource( 3 )
+animation = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D" index="1"]
+
+shape = SubResource( 4 )
+
+[node name="RigidBody2D2" type="RigidBody2D" parent="." index="9"]
+
+position = Vector2( 1349.9, 72.0845 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 1.0
+friction = 0.0
+bounce = 1.0
+gravity_scale = 0.23
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( -600, -200 )
+linear_damp = 0.0
+angular_velocity = 0.0
+angular_damp = -1.0
+_sections_unfolded = [ "Linear" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="RigidBody2D2" index="0"]
+
+frames = SubResource( 3 )
+animation = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D2" index="1"]
+
+shape = SubResource( 4 )
+
+[node name="RigidBody2D3" type="RigidBody2D" parent="." index="10"]
+
+position = Vector2( 1446.89, 916.768 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 1.0
+friction = 0.0
+bounce = 1.0
+gravity_scale = 0.23
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 800, 0 )
+linear_damp = 0.0
+angular_velocity = 0.0
+angular_damp = -1.0
+_sections_unfolded = [ "Linear" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="RigidBody2D3" index="0"]
+
+frames = SubResource( 3 )
+animation = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D3" index="1"]
+
+shape = SubResource( 4 )
+
+[connection signal="pressed" from="ButtonStart" to="." method="_on_ButtonStart_pressed"]
+
+[connection signal="pressed" from="ButtonQuit" to="." method="_on_ButtonQuit_pressed"]
+
+[connection signal="pressed" from="ButtonCredits" to="." method="_on_ButtonCredits_pressed"]
+
+

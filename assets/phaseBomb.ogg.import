@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/phaseBomb.ogg-96a2de59264b5a007fcef80fc267f666.oggstr"
+
+[deps]
+
+source_file="res://assets/phaseBomb.ogg"
+source_md5="d1b7550e0140169bc79347698885e24c"
+
+dest_files=[ "res://.import/phaseBomb.ogg-96a2de59264b5a007fcef80fc267f666.oggstr" ]
+dest_md5="74e5db4677067e5fc478c096fec7d5d3"
+
+[params]
+
+loop=false
+loop_offset=0

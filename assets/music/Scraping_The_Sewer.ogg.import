@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Scraping_The_Sewer.ogg-f353f8d62227945ee82553add8c5613c.oggstr"
+
+[deps]
+
+source_file="res://assets/music/Scraping_The_Sewer.ogg"
+source_md5="a854c24f79cb7a69434cdb07d116e0ca"
+
+dest_files=[ "res://.import/Scraping_The_Sewer.ogg-f353f8d62227945ee82553add8c5613c.oggstr" ]
+dest_md5="3cacf02bca7f9cba839e2452926d9782"
+
+[params]
+
+loop=true
+loop_offset=0

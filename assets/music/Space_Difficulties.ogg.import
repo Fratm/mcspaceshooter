@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Space_Difficulties.ogg-1c3613b02ad62b60025f895fe2ea452b.oggstr"
+
+[deps]
+
+source_file="res://assets/music/Space_Difficulties.ogg"
+source_md5="9fa786a5b83faa283436dcefc2337c0d"
+
+dest_files=[ "res://.import/Space_Difficulties.ogg-1c3613b02ad62b60025f895fe2ea452b.oggstr" ]
+dest_md5="90bf9142ec58679deae54a0f36b638c1"
+
+[params]
+
+loop=true
+loop_offset=0

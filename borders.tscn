@@ -1,0 +1,82 @@
+[gd_scene load_steps=4 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 1637.69, 10 )
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 28.8358, 527.61 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 518.788 )
+
+[node name="borders" type="Node"]
+
+[node name="Top" type="StaticBody2D" parent="." index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 0.0
+bounce = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Top" index="0"]
+
+position = Vector2( 986.338, 0 )
+shape = SubResource( 1 )
+
+[node name="Bottom" type="StaticBody2D" parent="." index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 0.0
+bounce = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bottom" index="0"]
+
+position = Vector2( 965.79, 1106.21 )
+shape = SubResource( 1 )
+
+[node name="Rightwall" type="StaticBody2D" parent="." index="2"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 0.0
+bounce = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Rightwall" index="0"]
+
+position = Vector2( 1964.34, 544.635 )
+shape = SubResource( 2 )
+_sections_unfolded = [ "Material" ]
+
+[node name="LeftWall" type="StaticBody2D" parent="." index="3"]
+
+position = Vector2( -150.755, 564.424 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall" index="0"]
+
+position = Vector2( 0, -10.2527 )
+shape = SubResource( 3 )
+
+

@@ -1,0 +1,58 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://bonusItem.gd" type="Script" id=1]
+[ext_resource path="res://assets/bonusItem.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 32.328, 22.9078 )
+
+[node name="bonusItem" type="RigidBody2D"]
+
+position = Vector2( 1682.69, 531.005 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 1.0
+friction = 0.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 1
+contact_monitor = true
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( -100, 0 )
+linear_damp = 0.0
+angular_velocity = 0.0
+angular_damp = 0.0
+script = ExtResource( 1 )
+_sections_unfolded = [ "Angular", "Applied Forces", "Collision", "Linear" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bonusSound" type="AudioStreamPlayer" parent="." index="0"]
+
+stream = null
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Sprite" type="Sprite" parent="." index="1"]
+
+position = Vector2( 3.52103, 1.3204 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="2"]
+
+position = Vector2( 0, 1.32037 )
+shape = SubResource( 1 )
+
+[connection signal="body_entered" from="." to="." method="_on_bonusItem_body_entered"]
+
+

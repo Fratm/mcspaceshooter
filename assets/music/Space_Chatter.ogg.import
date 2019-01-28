@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Space_Chatter.ogg-01eda2bdfbcf9e12ceeb0058cdff5fff.oggstr"
+
+[deps]
+
+source_file="res://assets/music/Space_Chatter.ogg"
+source_md5="b50b57823e577f0ce557c66013ba5b1d"
+
+dest_files=[ "res://.import/Space_Chatter.ogg-01eda2bdfbcf9e12ceeb0058cdff5fff.oggstr" ]
+dest_md5="b1e0e4b5c309acfc0b162f2f0f3b44bf"
+
+[params]
+
+loop=true
+loop_offset=0

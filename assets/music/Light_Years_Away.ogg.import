@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Light_Years_Away.ogg-49333cf86cea501f6c50ebc72ae1629e.oggstr"
+
+[deps]
+
+source_file="res://assets/music/Light_Years_Away.ogg"
+source_md5="224c3ad3db2dcbfaf2b03a7515450742"
+
+dest_files=[ "res://.import/Light_Years_Away.ogg-49333cf86cea501f6c50ebc72ae1629e.oggstr" ]
+dest_md5="6db1401835147ac4548e62097999ae76"
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,135 @@
+[gd_scene load_steps=56 format=2]
+
+[ext_resource path="res://Asteroid.gd" type="Script" id=1]
+[ext_resource path="res://assets/explosion/explosion0.png" type="Texture" id=2]
+[ext_resource path="res://assets/explosion/explosion1.png" type="Texture" id=3]
+[ext_resource path="res://assets/explosion/explosion2.png" type="Texture" id=4]
+[ext_resource path="res://assets/large/a10000.png" type="Texture" id=5]
+[ext_resource path="res://assets/large/a10001.png" type="Texture" id=6]
+[ext_resource path="res://assets/large/a10002.png" type="Texture" id=7]
+[ext_resource path="res://assets/large/a10003.png" type="Texture" id=8]
+[ext_resource path="res://assets/large/a10004.png" type="Texture" id=9]
+[ext_resource path="res://assets/large/a10005.png" type="Texture" id=10]
+[ext_resource path="res://assets/large/a10006.png" type="Texture" id=11]
+[ext_resource path="res://assets/large/a10007.png" type="Texture" id=12]
+[ext_resource path="res://assets/large/a10008.png" type="Texture" id=13]
+[ext_resource path="res://assets/large/a10009.png" type="Texture" id=14]
+[ext_resource path="res://assets/large/a10010.png" type="Texture" id=15]
+[ext_resource path="res://assets/large/a10011.png" type="Texture" id=16]
+[ext_resource path="res://assets/large/a10012.png" type="Texture" id=17]
+[ext_resource path="res://assets/large/a10013.png" type="Texture" id=18]
+[ext_resource path="res://assets/large/a10014.png" type="Texture" id=19]
+[ext_resource path="res://assets/large/a10015.png" type="Texture" id=20]
+[ext_resource path="res://assets/medium/a10000.png" type="Texture" id=21]
+[ext_resource path="res://assets/medium/a10001.png" type="Texture" id=22]
+[ext_resource path="res://assets/medium/a10002.png" type="Texture" id=23]
+[ext_resource path="res://assets/medium/a10003.png" type="Texture" id=24]
+[ext_resource path="res://assets/medium/a10004.png" type="Texture" id=25]
+[ext_resource path="res://assets/medium/a10005.png" type="Texture" id=26]
+[ext_resource path="res://assets/medium/a10006.png" type="Texture" id=27]
+[ext_resource path="res://assets/medium/a10007.png" type="Texture" id=28]
+[ext_resource path="res://assets/medium/a10008.png" type="Texture" id=29]
+[ext_resource path="res://assets/medium/a10009.png" type="Texture" id=30]
+[ext_resource path="res://assets/medium/a10010.png" type="Texture" id=31]
+[ext_resource path="res://assets/medium/a10011.png" type="Texture" id=32]
+[ext_resource path="res://assets/medium/a10012.png" type="Texture" id=33]
+[ext_resource path="res://assets/medium/a10013.png" type="Texture" id=34]
+[ext_resource path="res://assets/medium/a10014.png" type="Texture" id=35]
+[ext_resource path="res://assets/medium/a10015.png" type="Texture" id=36]
+[ext_resource path="res://assets/small/a10000.png" type="Texture" id=37]
+[ext_resource path="res://assets/small/a10001.png" type="Texture" id=38]
+[ext_resource path="res://assets/small/a10002.png" type="Texture" id=39]
+[ext_resource path="res://assets/small/a10003.png" type="Texture" id=40]
+[ext_resource path="res://assets/small/a10004.png" type="Texture" id=41]
+[ext_resource path="res://assets/small/a10005.png" type="Texture" id=42]
+[ext_resource path="res://assets/small/a10006.png" type="Texture" id=43]
+[ext_resource path="res://assets/small/a10007.png" type="Texture" id=44]
+[ext_resource path="res://assets/small/a10008.png" type="Texture" id=45]
+[ext_resource path="res://assets/small/a10009.png" type="Texture" id=46]
+[ext_resource path="res://assets/small/a10010.png" type="Texture" id=47]
+[ext_resource path="res://assets/small/a10011.png" type="Texture" id=48]
+[ext_resource path="res://assets/small/a10012.png" type="Texture" id=49]
+[ext_resource path="res://assets/small/a10013.png" type="Texture" id=50]
+[ext_resource path="res://assets/small/a10014.png" type="Texture" id=51]
+[ext_resource path="res://assets/small/a10015.png" type="Texture" id=52]
+[ext_resource path="res://assets/sounds/rumble.ogg" type="AudioStream" id=53]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": false,
+"name": "explosion",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ) ],
+"loop": true,
+"name": "0",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ) ],
+"loop": true,
+"name": "1",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ) ],
+"loop": true,
+"name": "2",
+"speed": 15.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+
+custom_solver_bias = 0.0
+radius = 81.6401
+
+[node name="Asteroid" type="RigidBody2D"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1024
+mode = 0
+mass = 1.0
+friction = 0.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 1
+contact_monitor = true
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( -100, 1 )
+linear_damp = 0.0
+angular_velocity = 0.0
+angular_damp = 0.0
+script = ExtResource( 1 )
+_sections_unfolded = [ "Angular", "Applied Forces", "Audio Bus", "Collision", "Linear", "Material", "Pickable", "Transform", "Visibility" ]
+
+[node name="Sprite" type="AnimatedSprite" parent="." index="0"]
+
+light_mask = 1024
+frames = SubResource( 1 )
+animation = "0"
+frame = 9
+_sections_unfolded = [ "Transform", "Visibility", "Z Index" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+
+position = Vector2( 8.41188, -2.9118 )
+shape = SubResource( 2 )
+_sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
+
+[node name="explosionSound" type="AudioStreamPlayer" parent="." index="2"]
+
+stream = ExtResource( 53 )
+volume_db = -15.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[connection signal="body_entered" from="." to="." method="_on_Asteroid_body_entered"]
+
+[connection signal="animation_finished" from="Sprite" to="." method="_on_Sprite_animation_finished"]
+
+

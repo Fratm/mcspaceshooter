@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Selfie_Stick.ogg-93508b86a29721bcb071f2ff36d7c935.oggstr"
+
+[deps]
+
+source_file="res://assets/music/Selfie_Stick.ogg"
+source_md5="bdffc6400f9525e235c73f750a5c92be"
+
+dest_files=[ "res://.import/Selfie_Stick.ogg-93508b86a29721bcb071f2ff36d7c935.oggstr" ]
+dest_md5="c7a2cfe766d7c0129b27fdfabd30ae9a"
+
+[params]
+
+loop=true
+loop_offset=0
