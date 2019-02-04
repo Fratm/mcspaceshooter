@@ -4,7 +4,7 @@
 [ext_resource path="res://assets/weaponHud/hudSelectBoxNotSelected.png" type="Texture" id=2]
 [ext_resource path="res://assets/weaponHud/hudSelectBoxSelected.png" type="Texture" id=3]
 
-[node name="weaponHud" type="CanvasLayer" index="0"]
+[node name="weaponHud" type="CanvasLayer"]
 
 layer = 1
 offset = Vector2( 0, 0 )
