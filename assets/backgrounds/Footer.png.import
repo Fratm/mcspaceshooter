@@ -7,10 +7,7 @@ path="res://.import/Footer.png-dd3c92afe3ad96e6efa260a722a0b67c.stex"
 [deps]
 
 source_file="res://assets/backgrounds/Footer.png"
-source_md5="29518e8a855f383017096e3912579116"
-
 dest_files=[ "res://.import/Footer.png-dd3c92afe3ad96e6efa260a722a0b67c.stex" ]
-dest_md5="51c9d33133bae13a788270f5d153d23d"
 
 [params]
 

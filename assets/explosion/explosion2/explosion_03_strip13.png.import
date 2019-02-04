@@ -7,10 +7,7 @@ path="res://.import/explosion_03_strip13.png-d1e9c53d61aa057417b7231d74931dd9.st
 [deps]
 
 source_file="res://assets/explosion/explosion2/explosion_03_strip13.png"
-source_md5="bfbe509619ec28e9e0ccfa0426ab665a"
-
 dest_files=[ "res://.import/explosion_03_strip13.png-d1e9c53d61aa057417b7231d74931dd9.stex" ]
-dest_md5="89373933df0e596206e322097d0855de"
 
 [params]
 

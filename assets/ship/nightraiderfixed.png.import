@@ -7,10 +7,7 @@ path="res://.import/nightraiderfixed.png-959eff2c92a1f6ba68d0b310a00900e0.stex"
 [deps]
 
 source_file="res://assets/ship/nightraiderfixed.png"
-source_md5="7e7d0704829dd5e90fb8af7befbc7dcb"
-
 dest_files=[ "res://.import/nightraiderfixed.png-959eff2c92a1f6ba68d0b310a00900e0.stex" ]
-dest_md5="e26bad187cb781db2981d8cc4eff20e6"
 
 [params]
 

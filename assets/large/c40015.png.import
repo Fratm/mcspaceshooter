@@ -7,10 +7,7 @@ path="res://.import/c40015.png-ef4ead83042a108e62c95555054cd91b.stex"
 [deps]
 
 source_file="res://assets/large/c40015.png"
-source_md5="ef0d6999b0803937fdfd3df339253ca9"
-
 dest_files=[ "res://.import/c40015.png-ef4ead83042a108e62c95555054cd91b.stex" ]
-dest_md5="89845d4d4aba1eae8d4ded5b5296bb31"
 
 [params]
 

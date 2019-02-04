@@ -54,7 +54,7 @@ animations = [ {
 custom_solver_bias = 0.0
 extents = Vector2( 70.1759, 56.8129 )
 
-[node name="IntroScreen" type="CanvasLayer" index="0"]
+[node name="IntroScreen" type="CanvasLayer"]
 
 layer = 1
 offset = Vector2( 0, 0 )

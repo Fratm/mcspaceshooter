@@ -7,10 +7,7 @@ path="res://.import/eclipse.jpg-c29464cfd99d20ea934a79272f2c3912.stex"
 [deps]
 
 source_file="res://assets/backgrounds/eclipse.jpg"
-source_md5="dcb90e77fea0b70e11e6b70b3d377eb1"
-
 dest_files=[ "res://.import/eclipse.jpg-c29464cfd99d20ea934a79272f2c3912.stex" ]
-dest_md5="58e990bcd957f950f9fb8546cf39005f"
 
 [params]
 

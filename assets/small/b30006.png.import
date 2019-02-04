@@ -7,10 +7,7 @@ path="res://.import/b30006.png-426eb58e773719cadd9204b755fd3608.stex"
 [deps]
 
 source_file="res://assets/small/b30006.png"
-source_md5="61c58b296ffbac561d2575d3479fde50"
-
 dest_files=[ "res://.import/b30006.png-426eb58e773719cadd9204b755fd3608.stex" ]
-dest_md5="7970c0df4a277fe7a587df5157abca0b"
 
 [params]
 

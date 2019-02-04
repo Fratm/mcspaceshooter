@@ -7,10 +7,7 @@ path="res://.import/Landing_On_a_Dark_Planet.ogg-567581359d2e5662331b0129687bd10
 [deps]
 
 source_file="res://assets/music/Landing_On_a_Dark_Planet.ogg"
-source_md5="f54128e6980281653028408f5e2b40b8"
-
 dest_files=[ "res://.import/Landing_On_a_Dark_Planet.ogg-567581359d2e5662331b0129687bd103.oggstr" ]
-dest_md5="85eba83b40f83575dc0a1531186b823e"
 
 [params]
 

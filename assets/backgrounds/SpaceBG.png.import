@@ -7,10 +7,7 @@ path="res://.import/SpaceBG.png-9f67f0b9badaeaa0227e2c394b753875.stex"
 [deps]
 
 source_file="res://assets/backgrounds/SpaceBG.png"
-source_md5="bae83d0bc1b60be2043a0d93882b8140"
-
 dest_files=[ "res://.import/SpaceBG.png-9f67f0b9badaeaa0227e2c394b753875.stex" ]
-dest_md5="afbabc6209e5a23a4ecf6b6b2ed673c2"
 
 [params]
 

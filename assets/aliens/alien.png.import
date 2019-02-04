@@ -7,10 +7,7 @@ path="res://.import/alien.png-fb97c2230462f341d7cde2f78b971235.stex"
 [deps]
 
 source_file="res://assets/aliens/alien.png"
-source_md5="4a0a42b2679156807bd49442c0912b66"
-
 dest_files=[ "res://.import/alien.png-fb97c2230462f341d7cde2f78b971235.stex" ]
-dest_md5="e6dd429ade4454964acd62eb4ef14c13"
 
 [params]
 

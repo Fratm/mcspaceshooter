@@ -7,10 +7,7 @@ path="res://.import/Cartoon_Space_Utopia.ogg-9ae8430b28dcb2c6f6d0e7d2c6a3e3e2.og
 [deps]
 
 source_file="res://assets/music/Cartoon_Space_Utopia.ogg"
-source_md5="a872e13faa5a480168fe3d4acddedab2"
-
 dest_files=[ "res://.import/Cartoon_Space_Utopia.ogg-9ae8430b28dcb2c6f6d0e7d2c6a3e3e2.oggstr" ]
-dest_md5="94f54569c1a5cf6249b817ca7b444c1b"
 
 [params]
 

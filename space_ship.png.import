@@ -7,10 +7,7 @@ path="res://.import/space_ship.png-82e11291b28b4c617be7f33741f79502.stex"
 [deps]
 
 source_file="res://space_ship.png"
-source_md5="87199d2a4042d20a77709472177549c2"
-
 dest_files=[ "res://.import/space_ship.png-82e11291b28b4c617be7f33741f79502.stex" ]
-dest_md5="81a717ef72536a854e432a213eea190c"
 
 [params]
 

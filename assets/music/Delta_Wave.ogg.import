@@ -7,10 +7,7 @@ path="res://.import/Delta_Wave.ogg-373e2fcff8598fd247b8a32cb5b6b1d6.oggstr"
 [deps]
 
 source_file="res://assets/music/Delta_Wave.ogg"
-source_md5="0cb68b62037f9a3a1161f1c773426f29"
-
 dest_files=[ "res://.import/Delta_Wave.ogg-373e2fcff8598fd247b8a32cb5b6b1d6.oggstr" ]
-dest_md5="d5ce66beb96e2c0151e5fc0d95d4b8f3"
 
 [params]
 

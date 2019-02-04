@@ -7,10 +7,7 @@ path="res://.import/FratmBranchLogoForMug.png-8cfafbfb53413cebda147c9001e08437.s
 [deps]
 
 source_file="res://assets/FratmBranchLogoForMug.png"
-source_md5="eda2046a63d100f93132de5542c16add"
-
 dest_files=[ "res://.import/FratmBranchLogoForMug.png-8cfafbfb53413cebda147c9001e08437.stex" ]
-dest_md5="51ba81698476ea3e740d2b6970a68519"
 
 [params]
 

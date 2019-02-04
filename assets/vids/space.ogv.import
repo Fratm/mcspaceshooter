@@ -7,10 +7,7 @@ path="res://.import/space.ogv-ef8764454469626f1698dda25cd32bd1.ogvstr"
 [deps]
 
 source_file="res://assets/vids/space.ogv"
-source_md5="22af4f187ca3639f595d27a3aacb8d18"
-
 dest_files=[ "res://.import/space.ogv-ef8764454469626f1698dda25cd32bd1.ogvstr" ]
-dest_md5="dc31f0a24818864c754e3631196b21aa"
 
 [params]
 

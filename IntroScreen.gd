@@ -24,4 +24,5 @@ func _on_ButtonQuit_pressed():
 
 
 func _on_ButtonCredits_pressed():
+	get_tree().change_scene("res://about.tscn")
 	pass

@@ -7,10 +7,7 @@ path="res://.import/Spring.ogg-21cf8c2d8b31b7b0c3d40148a5cd4352.oggstr"
 [deps]
 
 source_file="res://assets/music/Spring.ogg"
-source_md5="6e2d6254e7be34db37b4142bad8af303"
-
 dest_files=[ "res://.import/Spring.ogg-21cf8c2d8b31b7b0c3d40148a5cd4352.oggstr" ]
-dest_md5="1a825647581c2fb3eb4b24b658872919"
 
 [params]
 

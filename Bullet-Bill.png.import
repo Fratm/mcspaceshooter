@@ -7,10 +7,7 @@ path="res://.import/Bullet-Bill.png-dff238cffd46bfff5e6b35842bd2ca3d.stex"
 [deps]
 
 source_file="res://Bullet-Bill.png"
-source_md5="16a4cb738ca7c8c608be07f37ee5388d"
-
 dest_files=[ "res://.import/Bullet-Bill.png-dff238cffd46bfff5e6b35842bd2ca3d.stex" ]
-dest_md5="56076e0dbf390f225b34708f1f2eab92"
 
 [params]
 

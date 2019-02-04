@@ -7,10 +7,7 @@ path="res://.import/phasebomb.png-9658f5f0d67c2cd9b0764c62dd38a7c6.stex"
 [deps]
 
 source_file="res://assets/phasebomb.png"
-source_md5="9ba32de326053a758a6c7721d99a2a3d"
-
 dest_files=[ "res://.import/phasebomb.png-9658f5f0d67c2cd9b0764c62dd38a7c6.stex" ]
-dest_md5="be2cff18294d7c9cdf4d6f07c156f0e5"
 
 [params]
 

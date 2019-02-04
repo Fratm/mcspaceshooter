@@ -7,10 +7,7 @@ path="res://.import/Cycles.ogg-b4946a0c2b65230bcbae7ce98b85b600.oggstr"
 [deps]
 
 source_file="res://assets/music/Cycles.ogg"
-source_md5="3961f36afc278c9126a7f0cc64f6f232"
-
 dest_files=[ "res://.import/Cycles.ogg-b4946a0c2b65230bcbae7ce98b85b600.oggstr" ]
-dest_md5="bb560d609f47cda93824c2971f61e949"
 
 [params]
 

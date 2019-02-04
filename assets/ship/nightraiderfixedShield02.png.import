@@ -7,10 +7,7 @@ path="res://.import/nightraiderfixedShield02.png-e41a65b916833f1da9a49e5dc17c806
 [deps]
 
 source_file="res://assets/ship/nightraiderfixedShield02.png"
-source_md5="1b3f6055ac884260a49d4aa199e0f74e"
-
 dest_files=[ "res://.import/nightraiderfixedShield02.png-e41a65b916833f1da9a49e5dc17c8066.stex" ]
-dest_md5="23e5b84ae805ca9210df42dfafaff964"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/fragment.png-1354dc667801f36281479178fe9532bd.stex"
 [deps]
 
 source_file="res://assets/fragment.png"
-source_md5="351d83f34a0cf246b2623cc45f3f36c8"
-
 dest_files=[ "res://.import/fragment.png-1354dc667801f36281479178fe9532bd.stex" ]
-dest_md5="fdcc9e4eea20851758c52ea381a37394"
 
 [params]
 

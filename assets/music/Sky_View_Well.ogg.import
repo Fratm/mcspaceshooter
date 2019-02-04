@@ -7,10 +7,7 @@ path="res://.import/Sky_View_Well.ogg-706d9033b2614f1601a17f8108540530.oggstr"
 [deps]
 
 source_file="res://assets/music/Sky_View_Well.ogg"
-source_md5="ac38c03599604c5c7dedbf3903fce295"
-
 dest_files=[ "res://.import/Sky_View_Well.ogg-706d9033b2614f1601a17f8108540530.oggstr" ]
-dest_md5="a7a91404f240dae21b6d114fb03b88fa"
 
 [params]
 

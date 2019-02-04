@@ -7,10 +7,7 @@ path="res://.import/Santorini_2.ogg-6867eb9153d5b83555c72e317535a827.oggstr"
 [deps]
 
 source_file="res://assets/music/Santorini_2.ogg"
-source_md5="820be02107141a3e78758907e86e0223"
-
 dest_files=[ "res://.import/Santorini_2.ogg-6867eb9153d5b83555c72e317535a827.oggstr" ]
-dest_md5="5beb07665765cea145b5053072f15fa8"
 
 [params]
 

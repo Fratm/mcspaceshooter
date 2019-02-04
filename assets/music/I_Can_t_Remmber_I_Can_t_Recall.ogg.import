@@ -7,10 +7,7 @@ path="res://.import/I_Can_t_Remmber_I_Can_t_Recall.ogg-791209890aa3322b58ff81075
 [deps]
 
 source_file="res://assets/music/I_Can_t_Remmber_I_Can_t_Recall.ogg"
-source_md5="998ef119a274382d9dae98700f592c6a"
-
 dest_files=[ "res://.import/I_Can_t_Remmber_I_Can_t_Recall.ogg-791209890aa3322b58ff8107502f159d.oggstr" ]
-dest_md5="e601bc12ba41905281594d585421a3d5"
 
 [params]
 

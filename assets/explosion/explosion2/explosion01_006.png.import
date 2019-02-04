@@ -7,10 +7,7 @@ path="res://.import/explosion01_006.png-fe1405473d8481a586e21a863f7ff2f5.stex"
 [deps]
 
 source_file="res://assets/explosion/explosion2/explosion01_006.png"
-source_md5="c8fd0e8879794363e89731993abc9723"
-
 dest_files=[ "res://.import/explosion01_006.png-fe1405473d8481a586e21a863f7ff2f5.stex" ]
-dest_md5="5c3fcc29decfd16cf8fc4019cfc6cddb"
 
 [params]
 

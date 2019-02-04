@@ -7,10 +7,7 @@ path="res://.import/laserfire02.ogg-4aa96bee672bafc6e6e948dc024ea701.oggstr"
 [deps]
 
 source_file="res://assets/sounds/laserfire02.ogg"
-source_md5="5f39a6ba43aed62b0e3aeb99cea6d38c"
-
 dest_files=[ "res://.import/laserfire02.ogg-4aa96bee672bafc6e6e948dc024ea701.oggstr" ]
-dest_md5="76d290d804587dd1c2e802e5d37b1740"
 
 [params]
 

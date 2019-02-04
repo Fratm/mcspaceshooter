@@ -7,10 +7,7 @@ path="res://.import/hudSelectBoxNotSelected.png-128d48683ae990a8f7f16e72ee36b4c2
 [deps]
 
 source_file="res://assets/weaponHud/hudSelectBoxNotSelected.png"
-source_md5="1773fd7dd43d8def89cf4c0ad60503d5"
-
 dest_files=[ "res://.import/hudSelectBoxNotSelected.png-128d48683ae990a8f7f16e72ee36b4c2.stex" ]
-dest_md5="326d478e4a007a93d9ce98cedad565be"
 
 [params]
 
