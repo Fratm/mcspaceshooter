@@ -17,6 +17,7 @@ extents = Vector2( 26.0432, 29.1183 )
 
 [node name="UFO" type="Path2D"]
 
+self_modulate = Color( 0.5, 0.6, 1, 0.7 )
 position = Vector2( 9.99634, -88.7677 )
 scale = Vector2( 1.0113, 1.58136 )
 curve = SubResource( 1 )

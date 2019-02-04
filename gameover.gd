@@ -27,3 +27,8 @@ func _on_Play_Again_pressed():
 
 func _on_ButtonQuit_pressed():
 	get_tree().quit()
+
+
+func _on_About_pressed():
+	get_tree().change_scene("res://about.tscn")
+	pass # replace with function body

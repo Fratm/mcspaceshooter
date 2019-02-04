@@ -119,9 +119,9 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 867.0
-margin_top = 555.0
+margin_top = 536.0
 margin_right = 1106.0
-margin_bottom = 636.0
+margin_bottom = 617.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -139,7 +139,34 @@ flat = false
 align = 1
 _sections_unfolded = [ "Focus", "Hint", "Mouse", "custom_colors", "custom_fonts" ]
 
-[node name="Play Again" type="Button" parent="." index="5"]
+[node name="About" type="Button" parent="." index="5"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 817.0
+margin_top = 660.0
+margin_right = 1167.0
+margin_bottom = 741.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 2 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "About"
+flat = false
+align = 1
+_sections_unfolded = [ "Focus", "Hint", "Mouse", "custom_colors", "custom_fonts" ]
+
+[node name="Play Again" type="Button" parent="." index="6"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -166,7 +193,7 @@ flat = false
 align = 1
 _sections_unfolded = [ "custom_fonts" ]
 
-[node name="Score" type="Label" parent="." index="6"]
+[node name="Score" type="Label" parent="." index="7"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -189,7 +216,7 @@ lines_skipped = 0
 max_lines_visible = -1
 _sections_unfolded = [ "custom_fonts" ]
 
-[node name="Wave" type="Label" parent="." index="7"]
+[node name="Wave" type="Label" parent="." index="8"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -213,6 +240,8 @@ max_lines_visible = -1
 _sections_unfolded = [ "custom_fonts" ]
 
 [connection signal="pressed" from="ButtonQuit" to="." method="_on_ButtonQuit_pressed"]
+
+[connection signal="pressed" from="About" to="." method="_on_About_pressed"]
 
 [connection signal="pressed" from="Play Again" to="." method="_on_Play_Again_pressed"]
 
