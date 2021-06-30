@@ -27,7 +27,6 @@ func _ready():
 	var myIntro = introScreen.instance()
 	add_child(myIntro)
 
-
 func newGame():
 	currentWave = 0
 	phaseBombsAvailable = 2
@@ -36,8 +35,6 @@ func newGame():
 	score = 0
 	waveStart()
 	gameRunning = true
-
-
 
 ## Start the next wave.
 func waveStart():
@@ -71,7 +68,6 @@ func spawnRoid():
 		$pf.add_child(myRoid)
 		
 
-
 func _process(delta):
 	## If wave ends, pop up a stats page..
 	if gameRunning && roidCount <= 0:
@@ -86,7 +82,6 @@ func _process(delta):
 		gameRunning = true
 		spawnRoid()
 	
-	
 	## If shields are at zero.. Game over..
 	if shields <= 0 && gameRunning == true:
 		var playership = get_tree().get_root().find_node("player", true, false)
@@ -98,4 +93,3 @@ func _process(delta):
 		$pf.queue_free()
 		var gover=gameover.instance()
 		self.add_child(gover)
-
