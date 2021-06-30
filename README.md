@@ -1,3 +1,12 @@
+-=-=-=-=-=-=-=-= UPDATE 06.29.2021 =-=-=-=-=-=-=-=-
+
+I pretty much forgot about this project.  But as of today it sort of works on godot 3.3.x Which is pretty cool.  Sound is not working, so something might have changed in the way sounds are played between 3.0 and 3.3, so I will be looking into this, also the bonus item that I thought was supposed to add to your shields seems to cause shield damage.    Looks like I will be working on this project once again.   
+
+-Fratm
+
+P.S. This really is a stupid game haha.
+
+
 Q. What is this?
 A.  My first attempt to write a simple game in Godot 3.0
 
