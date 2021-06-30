@@ -23,7 +23,7 @@ func _input(event):
 			spawnUFO()
 		elif event.pressed and event.scancode == KEY_H:
 			var playership = get_tree().get_root().find_node("player", true, false)
-		 playership.reHomeShip(112.5,522.7)
+			playership.reHomeShip(112.5,522.7)
 
 
 func setRoidPosition(roidPosition):

@@ -52,7 +52,7 @@ func _physics_process(delta):
 	motion.y += GRAVITY
 # Let's deal with Up Down movement
 	if Input.is_action_pressed("ui_up") && playerPos[2].y > 45:
- 		#$playerSprite.flip_h = false
+		#$playerSprite.flip_h = false
 		#$playerSprite.transform.get_rotation()
 		motion.y = -SPEED
 	elif Input.is_action_pressed("ui_down") && playerPos[2].y < 1080:
